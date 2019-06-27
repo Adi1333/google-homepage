@@ -1,0 +1,95 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    width: 100%;
+}
+ul {
+    list-style: none;
+    display: flex; /* without flex there is a problem when displaying the navbar*/
+    align-items: center;
+}
+#topnav {
+    float: right;
+    display: flex;
+}
+.nav-links {
+    padding: 8px;
+    color: #111010;
+}
+#topnav #signin {
+    background: #4887ef; 
+    margin-right: 55px;
+    padding: 7px 14px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li.nav-links a:hover {
+    text-decoration: underline;
+}
+#signin {
+    color: #ffffff; /*urutannya harus di atas signin:hover*/
+}
+#signin:hover {
+    box-shadow: 1px 1px 5px #888888;
+}
+/*Gooogle Images logos section*/
+.logo .logos {
+    display: block;
+    margin: 0 auto; /*auto membuat text ada d tengah*/
+    clear: both;
+    padding-top: 112px;
+    padding-bottom: 20px;
+}
+/*form atau tempat memasukan kata pencarian */
+.form {
+   text-align: center;
+}
+#form-search {
+    width: 500px;
+    line-height: 30px;   
+}
+.form #form-search {
+    padding: 0 8px;
+}
+#form-search:hover {
+    border-color: hsl(0, 0%, 89%);
+    padding-top: 0;
+    border-radius: 4px;
+  }
+/* Tombol cari di google dan aku lagi beruntung */
+.button {
+    text-align: center;
+    padding-top: 6px;
+    margin-bottom: 300px;
+}
+.button:hover {
+    border-color: #e4e4e4;
+}
+/* footer atau kaki halaman */
+footer {
+    background: #f2f2f2;
+    border-top: solid 1px #e4e4e4;
+}
+footer ul li {
+    display: inline;
+    color: #666666;
+    font-size: 14px;
+    padding: 11px; /*without padding the footer don't inline */
+}
+footer ul {
+    float: left; /* position inline to the left */
+    padding: 1px;
+}
+footer ul :hover {
+    text-decoration: underline;
+}
+.footer-right {
+    float: right;
+}
